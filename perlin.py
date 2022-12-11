@@ -91,7 +91,7 @@ island_palette = {
 
 dim = 50
 img = np.zeros((dim, dim, 3))
-miv = 1; mav = 0; avv = 0 # currently for debugging affects of octaves on value distribution
+miv = 1; mav = 0; avv = 0 # currently for debugging effects of octaves on value distribution
 mav2=0
 c = (dim//2, dim//2)
 for xd in range(dim):
